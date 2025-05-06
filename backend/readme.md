@@ -1,7 +1,7 @@
 # Backend Documentation
 
 ## Overview
-This document provides detailed information about the backend of the project. It outlines the technologies used, setup instructions, and key features.
+This document provides detailed information about the backend of the project. It outlines the technologies used, setup instructions, folder structure, and key features.
 
 ## Technologies Used
 - **Programming Language**: [Specify language, e.g., Node.js, Python]
@@ -14,6 +14,26 @@ This document provides detailed information about the backend of the project. It
 - [Feature 1: Brief description]
 - [Feature 2: Brief description]
 - [Feature 3: Brief description]
+
+## Folder Structure
+The following is the folder structure of the backend project:
+
+```
+backend/
+├── src/
+│   ├── controllers/       # Contains route controllers
+│   ├── models/            # Database models
+│   ├── routes/            # API route definitions
+│   ├── services/          # Business logic and services
+│   ├── utils/             # Utility functions
+│   ├── middlewares/       # Middleware functions
+│   └── app.js             # Main application entry point
+├── tests/                 # Test cases
+├── config/                # Configuration files
+├── .env                   # Environment variables
+├── package.json           # Project metadata and dependencies
+└── README.md              # Documentation
+```
 
 ## Setup Instructions
 1. Clone the repository:
@@ -50,4 +70,3 @@ Run the following command to execute tests:
 ```bash
 [Command, e.g., npm test, pytest]
 ```
-
